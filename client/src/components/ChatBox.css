@@ -1,0 +1,32 @@
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #bdc3c7;
+    margin-bottom: 5px;
+  }
+  
+  .message.user {
+    align-self: flex-end;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .message.bot {
+    align-self: flex-start;
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .flag-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  

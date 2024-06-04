@@ -1,0 +1,14 @@
+.flag-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .flag-button:hover {
+    background-color: #c0392b;
+  }
+  

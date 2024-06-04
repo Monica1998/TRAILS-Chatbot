@@ -1,0 +1,27 @@
+.MessageForm {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    display: flex;
+  }
+  
+  .MessageForm input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .MessageForm button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .MessageForm button:hover {
+    background-color: #0056b3;
+  }
+  
